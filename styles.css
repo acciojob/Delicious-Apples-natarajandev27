@@ -1,1 +1,112 @@
 /* your code here */
+body {
+    background-color: #10E37F;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+.product {
+    display: flex;
+    width: 50vw;
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+    height: 80vh;
+    background-color: white;
+    border-radius: 12px;
+}
+.photo-container {
+    width: 300px;
+    position: relative;
+    left: -44px;
+    top: 33px;
+	background-color: white;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 12px 12px 12px 12px;
+}
+.photo-main {
+    background-color: #B6EA41;
+    border-radius: 12px 12px 0 0;
+}
+.photo-album {
+    display: flex;
+    border-radius: 0 0 12px 12px;
+}
+.controls {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+.photo-main > img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: -56px;
+}
+.photo-album > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.photo-album > ul > li > img {
+    width: 50px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 2px;
+    margin: 5px;
+}
+.variant > ul {
+    display: flex;
+    list-style: none;
+}
+.variant > ul > li > img {
+    width: 30px;
+    margin: 5px;
+}
+.product__info {
+    margin-top: 30px;
+    margin-left: -20px;
+}
+.product__info > div > h1 {
+    color: #4c4c4c;
+}
+.product__info > .title > span {
+    color: #b0b0b0;
+}
+.product__info > .title > span {
+    position: relative;
+    top: -10px;
+    font-size: 15px;
+}
+.price {
+    margin: 18px;
+    margin-left: 0;
+}
+.price > span {
+    font-size: 60px;
+    color: red;
+}
+.variant > h3, .description > h3 {
+    font-size: 13px;
+    color: #b0b0b0;
+}
+.variant > ul > li:first-child {
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 2px;
+}
+.description > ul > li {
+    font-size: 12px;
+    padding: 2px;
+}
+.description > ul {
+    padding-left: 54px;
+    margin-top: -5px;
+}
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
